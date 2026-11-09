@@ -263,6 +263,16 @@ const rounds = [
             { name: "Fenerbahce", years: "2022-2021", image: "images/Fenerbahce.png" },
             { name: "İstanbul Başakşehir", years: "2023-2022", image: "images/Başakşehir.png" }
         ]
+    },
+
+    {
+        number: 19,
+        answer: "Kylian Mbappe",
+        clubs [
+            { name: "Monaco", years: "2015–2018", image: "images/Monaco.png" },
+            { name: "Paris Saint-Germain", years: "2018–2024", image: "images/PSG.png" },
+            { name: "real madrid", years: "2024–", image: "images/Real-Madrid.png" }
+        ]
     }
 ];
 
