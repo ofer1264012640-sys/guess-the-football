@@ -261,7 +261,7 @@ const rounds = [
             { name: "real madrid", years: "2010–2013", image: "images/Real-Madrid.png" },
             { name: "arsenal", years: "2013–2021", image: "images/arsenal.png" },
             { name: "Fenerbahce", years: "2022-2021", image: "images/Fenerbahce.png" },
-            { name: "İstanbul Başakşehir", years: "2023-2022", image: "images/İstanbul.png" }
+            { name: "İstanbul Başakşehir", years: "2023-2022", image: "images/Başakşehir.png" }
         ]
     }
 ];
