@@ -9,6 +9,7 @@ window.players = [
     "Luka Modric",
     "Andres Iniesta",
     "Xavi",
+    "Sergio Agüero",
     "Robert Lewandowski",
     "Karim Benzema",
     "Luis Suarez",
