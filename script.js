@@ -272,7 +272,18 @@ const rounds = [
         clubs: [
             { name: "Monaco", years: "2015–2018", image: "images/Monaco.png" },
             { name: "Paris Saint-Germain", years: "2018–2024", image: "images/PSG.png" },
-            { name: "real madrid", years: "2024–", image: "images/Real-Madrid.png" }
+            { name: "real madrid", years: "2024–", image: "images/Real-Madrid.png" },
+        ]
+    },
+
+    {
+        number: 20,
+        answer: "Sergio Aguero",
+        clubs: [
+            { name: "Independiente", years: "2003-2006", image: "images/Independiente.png" },
+            { name: "Atlético Madrid", years: "2006-2011", image: "images/Atletico-Madrid.png" },
+            { name: "Manchester City", years: "2011–2021", image: "images/Manchester-City1997-2016.png" },
+            { name: "Barcelona", years: "2021", image: "images/Barcelona.png" }
         ]
     }
 ];
