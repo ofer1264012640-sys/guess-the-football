@@ -248,7 +248,7 @@ const rounds = [
             { name: "maccabi haifa", years: "2003-2005", image: "images/Maccabi-Haifa.png" },
             { name: "Hapoel Tel Aviv", years: "2005-2007", image: "images/Hapoel-Tel-Aviv.png" },
             { name: "Genk", years: "2007-2013", image: "images/Genk.png" },
-            { name: "Hapoel Be'er Sheva", years: "2013–2018", image: "images/Hapoel-Beer-Sheva.png" },
+            { name: "Hapoel Be'er Sheva", years: "2013–2018", image: "images/Hapoel-Beer-Sheva.png" }
         ]
     },
 
