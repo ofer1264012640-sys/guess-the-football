@@ -265,10 +265,11 @@ const rounds = [
         ]
     },
 
+
     {
         number: 19,
         answer: "Kylian Mbappe",
-        clubs [
+        clubs: [
             { name: "Monaco", years: "2015–2018", image: "images/Monaco.png" },
             { name: "Paris Saint-Germain", years: "2018–2024", image: "images/PSG.png" },
             { name: "real madrid", years: "2024–", image: "images/Real-Madrid.png" }
