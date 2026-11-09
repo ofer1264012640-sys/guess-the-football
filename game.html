@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="back-home">←</a>
+
+        <h1>Guess The Player</h1>
+
+        <p>Round 1</p>
+
+        <select id="round-selector">
+            <option value="0">Round 1</option>
+            <option value="1">Round 2</option>
+            <option value="2">Round 3</option>
+        </select>
+
+        <hr>
+    </header>
+
+    <main>
+        <h2>Who is this player?</h2>
+
+        <h3>Career Path:</h3>
+
+        <div class="career-path" id="career-path" dir="rtl">
+            <div>
+                <h4>Manchester United</h4>
+                <img src="images/manchester-united.png" alt="Manchester United Logo">
+                <p>2003–2009</p>
+            </div>
+            <div>
+                <h4>Real Madrid</h4>
+                <img src="images/real-madrid.png" alt="Real Madrid Logo">
+                <p>2009–2018</p>
+            </div>
+            <div>
+                <h4>Juventus</h4>
+                <img src="images/juventus.png" alt="Juventus Logo">
+                <p>2018–2021</p>
+            </div>
+            <div>
+                <h4>Manchester United</h4>
+                <img src="images/manchester-united.png" alt="Manchester United Logo">
+                <p>2021–2022</p>
+            </div>
+            <div>
+                <h4>Al Nassr</h4>
+                <img src="images/al-nassr.png" alt="Al Nassr Logo">
+                <p>2023–2025</p>
+            </div>
+        </div>
+        <hr>
+    </main>
+
+    <footer>
+        <p>Your answer:</p>
+        <div class="autocomplete">
+            <input
+                type="text"
+                id="player-answer"
+                placeholder="Search for a football player..."
+                autofocus
+            >
+            <div id="suggestions" class="suggestions"></div>
+        </div>
+        <button id="submit-answer">SUBMIT</button>
+        <p id="feedback"></p>
+        <p class="score">
+            Score: <span id="score">0</span>
+        </p>
+    </footer>
+
+    <script src="players.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

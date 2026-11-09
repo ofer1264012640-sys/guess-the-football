@@ -1,0 +1,42 @@
+
+window.managers = [
+    // Israeli Managers
+    "Barak Bakhar",
+    "Avraham Grant",
+    "Roni Levy",
+    "Elisha Levy",
+    "Yitzhak Shum",
+    "Dror Kashtan",
+    "Yossi Abukasis",
+    "Marco Balbul",
+    "Guy Luzon",
+    "Shay Barda",
+    "Elyaniv Barda",
+    "Ran Ben Shimon",
+
+    // International Managers
+    "Pep Guardiola",
+    "Sir Alex Ferguson",
+    "Jose Mourinho",
+    "Jurgen Klopp",
+    "Carlo Ancelotti",
+    "Didier Deschamps",
+    "Xavi",
+    "Hansi Flick",
+    "Zinedine Zidane",
+    "Arsene Wenger",
+    "Diego Simeone",
+    "Luis Enrique",
+    "Thomas Tuchel",
+    "Antonio Conte",
+    "Mikel Arteta",
+    "Unai Emery",
+    "Roberto Mancini",
+    "Marcelo Bielsa",
+    "Erik ten Hag",
+    "Mauricio Pochettino",
+    "Cesc Fabregas",
+    "Frank Rijkaard",
+    "Arne Slot",
+    "Johan Cruyff"
+];

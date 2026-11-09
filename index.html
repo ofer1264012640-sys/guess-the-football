@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Player</title>
+
+    <style>
+        body {
+            background-color: #101827;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            text-align: center;
+        }
+
+        header {
+            padding: 35px 20px;
+        }
+
+        h1 {
+            color: #4ade80;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #cbd5e1;
+            font-size: 18px;
+        }
+
+        hr {
+            border: 1px solid #334155;
+            margin: 25px 0;
+        }
+
+        main {
+            max-width: 650px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #4ade80;
+            font-size: 30px;
+        }
+
+        main p {
+            color: #cbd5e1;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        main ol {
+            display: inline-block;
+            text-align: left;
+            color: #e2e8f0;
+            line-height: 2;
+            font-size: 16px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .game-button {
+            width: 200px;
+            padding: 18px;
+            background-color: #4ade80;
+            color: #101827;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s;
+            text-decoration: none;
+        }
+
+        .game-button:hover {
+            background-color: #22c55e;
+            transform: translateY(-4px);
+        }
+
+        .manager-button {
+            background-color: #1e293b;
+            color: #4ade80;
+            border: 2px solid #4ade80;
+        }
+
+        .manager-button:hover {
+            background-color: #4ade80;
+            color: #101827;
+        }
+
+        footer p {
+            color: #64748b;
+            margin-top: 45px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Guess The Player</h1>
+        <p>Can you guess the footballer?</p>
+        <hr>
+    </header>
+
+    <main>
+        <h2>Welcome to Guess The Player!</h2>
+
+        <p>
+            Test your football knowledge by guessing players
+            based on their career path.
+        </p>
+
+        <p><strong>How to play:</strong></p>
+
+        <ol>
+            <li>Look at the player's career path.</li>
+            <li>Guess which footballer it belongs to.</li>
+            <li>Enter your answer.</li>
+            <li>Get points for correct answers!</li>
+        </ol>
+
+        <hr>
+    </main>
+
+    <footer>
+        <div class="buttons">
+            <a href="game.html" class="game-button">PLAY</a>
+
+            <a href="manager.html" class="game-button manager-button">
+                MANAGER MODE
+            </a>
+        </div>
+
+        <p>Created by ofer</p>
+    </footer>
+
+</body>
+</html>

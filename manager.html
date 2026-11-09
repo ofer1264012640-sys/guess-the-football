@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="back-home">←</a>
+
+        <h1>Guess The Manager</h1>
+
+        <p>Round 1</p>
+
+        <select id="round-selector"></select>
+
+        <hr>
+    </header>
+
+    <main>
+        <h2>Who is this manager?</h2>
+
+        <h3>Manager Career Path:</h3>
+
+        <div class="career-path" id="career-path" dir="rtl">
+        </div>
+
+        <hr>
+    </main>
+
+    <footer>
+        <p>Your answer:</p>
+
+        <div class="autocomplete">
+            <input
+                type="text"
+                id="manager-answer"
+                placeholder="Search for a football manager..."
+                autocomplete="off"
+            >
+
+            <div id="suggestions" class="suggestions"></div>
+        </div>
+
+        <button id="submit-answer">SUBMIT</button>
+
+        <p id="feedback"></p>
+
+        <p class="score">
+            Score: <span id="score">0</span>
+        </p>
+    </footer>
+
+    <script src="managers.js"></script>
+    <script src="manager.js"></script>
+
+</body>
+</html>
